@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background-color:aqua;
+}
+header li{
+    display:inline;
+    margin-right: 4vw;
+    font-size: 20px;
+}
+
+header ul{
+    position:absolute;
+    right:2.5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header a{
+    color:black;
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
